@@ -1,13 +1,15 @@
+def fabricaDeUsuario():
+    id = 0
+    def criarUsuario(nome):
+        nonlocal id
+        id += 1
+        return {
+            'id': id,
+            'nome': nome
+        }
+    return criarUsuario
 
-class objeto:
-    def funcao1(self,nome):
-        parametro  = 'ola'
-        def funcao2(parametro):
-            nome += 1
-            print(f'{parametro} {nome}')
+fabrica = fabricaDeUsuario()
 
-        funcao2(parametro)
-
-a  = objeto()
-
-a.funcao1('nome')
+print(fabrica("Bruno"))
+print(fabrica("José"))
