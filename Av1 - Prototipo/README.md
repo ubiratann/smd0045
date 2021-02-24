@@ -4,7 +4,7 @@
 
   O protótipo é evolucionário visto que apesar de ainda se tratar de um site simples que sequer implementa integração com algum banco de dados, não é difícil de se ver novas funcionalidades a serem implementadas como um sistema de login, funções de avaliação das ideias ou uma sessão de iteração entre os usuários através de comentários em cada idéia cadastrada.
 
-### 2 - Quais as características da linguagem escolhida fazem ela apropriada para o desenvolvimento de um protótipo?**
+### 2 - Quais as características da linguagem escolhida fazem ela apropriada para o desenvolvimento de um protótipo?
 
 A linguagem escolhida foi o JavaScript e as principais características que a tornam apropriada para a prototipagem são a velocidade de desenvolvimento, a facilidade na estruturação do projeto por mais simples que ele seja além de ser uma linguagem que abre um leque de frameworks e bibliotecas que auxiliam num desenvolvimento ágil.
 
@@ -33,4 +33,4 @@ O protótipo ajuda a ver os melhores caminhos que devem ser seguidos durante o d
     npm run start
   ```
 
-  Seu projeto estará disponível neste [endereço](127.0.0.1:3333).
+  Seu projeto estará disponível neste endereço: http://localhost:3333.
