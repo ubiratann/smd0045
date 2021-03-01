@@ -7,4 +7,4 @@ http.createServer(function(request, response) {
   response.end(':) \n');
 }).listen(PORT, HOST);
 
-console.log('Servidor executando em http://127.0.0.1:8000/');
+console.log('Servidor executando em http://127.0.0.1:3333/');
