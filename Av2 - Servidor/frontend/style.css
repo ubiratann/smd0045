@@ -1,0 +1,32 @@
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flexColumnCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.flexRowCenter{
+  display: flex;
+  flex-direction: row;
+}
+
+#container {
+  height:100vh;
+}
+
+#botaoMagico{
+  margin-left: 20px;
+}
